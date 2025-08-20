@@ -1,6 +1,6 @@
 # ROS-Navigation-Comparison
 A report comparing classic navigation stack and the navigation with reinforcement machine learning
-## 1. Introduction
+##  Introduction
 Navigation is one of the most fundamental challenges in mobile robotics.  
 In the Robot Operating System (ROS), two major approaches are commonly discussed:  
 the classic navigation stack, which relies on deterministic algorithms such as SLAM, localization, and path planning,  
@@ -11,7 +11,7 @@ highlighting their strengths, limitations, computational requirements, and poten
 The goal is to identify in which contexts each approach is most suitable,  
 and how future research may bridge the gap between classical methods and learning-based methods.
 
-## 2. Classic Navigation Stack
+##  Classic Navigation Stack
 
 The classic navigation stack in ROS is a modular framework designed to enable mobile robots to move from one point to another while avoiding obstacles.  
 It integrates several well-established components that together form a deterministic and reliable navigation pipeline:
@@ -46,7 +46,7 @@ It integrates several well-established components that together form a determini
 - Performance depends heavily on the accuracy of the map and sensors.  
 - Requires significant manual tuning of parameters (cost maps, planners, controllers).
 
-## 3. Reinforcement Learning (RL)-Based Navigation
+##  Reinforcement Learning (RL)-Based Navigation
 
 Reinforcement Learning (RL) introduces a fundamentally different approach to robot navigation compared to the classic stack.  
 Instead of relying on pre-programmed algorithms, the robot learns navigation strategies through trial and error by interacting with the environment.  
@@ -83,7 +83,7 @@ The learning process is driven by rewards (for successful actions, such as reach
 - Safety Concerns: May behave unpredictably in real-world deployment.  
 - Data Dependency: Needs large amounts of simulated experience to perform well.
 
-## 4. Comparison Table
+##  Comparison Table
 
 | Aspect              | Classic Navigation | Reinforcement Learning |
 |---------------------|-------------------|-------------------------|
@@ -92,6 +92,6 @@ The learning process is driven by rewards (for successful actions, such as reach
 | Computational Cost  | Low               | High |
 | Ease of Use         | Easy (ready in ROS) | Complex (needs training) |
 
-## 5. Conclusion
+##  Conclusion
 - Classic navigation is practical and reliable for most real-world applications.
 - Reinforcement learning navigation is more experimental and useful for research in dynamic environments.
