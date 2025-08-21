@@ -83,7 +83,7 @@ The learning process is driven by rewards (for successful actions, such as reach
 - Safety Concerns: May behave unpredictably in real-world deployment.  
 - Data Dependency: Needs large amounts of simulated experience to perform well.
 
-##  Comparison Table
+##  Comparison Table.
 
 | Aspect              | Classic Navigation | Reinforcement Learning |
 |---------------------|-------------------|-------------------------|
